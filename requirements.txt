@@ -1,0 +1,6 @@
+# 本项目依赖（建议 Python 3.11）
+# 注意：RTX 50 系（Blackwell, sm_120）必须装 CUDA 12.8+ 版本的 PyTorch：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7.0
+numpy>=1.24
+opencc-python-reimplemented>=0.1.7

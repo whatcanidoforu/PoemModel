@@ -1,0 +1,225 @@
+======================================================================
+设备: cuda  |  模型参数: 13.81M  |  词表: 8107  |  上下文: 192
+训练 token: 7,826,509  |  验证 token: 159,510
+预计每 epoch token: 7,826,509  |  每步 token: 6,144
+======================================================================
+step     0 | loss 9.0656 | lr 1.00e-05 | 8,171 tok/s | 已用 0.0 min
+  [eval] step 0 | val_loss 8.9643 | best 8.9643  <- 保存 best.pt
+step    10 | loss 8.1502 | lr 1.10e-04 | 45,949 tok/s | 已用 0.0 min
+  [eval] step 10 | val_loss 8.0842 | best 8.0842  <- 保存 best.pt
+  [样例] 秋夜 / 陈，。。峙。娇。，，。看。容，。。，。。。，。。睫，，，，。，。王。。。，间。，。霰，翕
+step    20 | loss 7.4120 | lr 2.10e-04 | 44,892 tok/s | 已用 0.0 min
+  [eval] step 20 | val_loss 7.3345 | best 7.3345  <- 保存 best.pt
+  [样例] 秋夜 / 。
+step    29 | loss 6.8317 | lr 3.00e-04 | 51,464 tok/s | 已用 0.1 min
+  [eval] step 29 | val_loss 6.7493 | best 6.7493  <- 保存 best.pt
+训练结束，用时 0.1 分钟，最优 val_loss=6.7493
+模型保存在 D:\MyTools\zlf\firstModel\checkpoints\best.pt
+======================================================================
+设备: cuda  |  模型参数: 13.81M  |  词表: 8107  |  上下文: 192
+训练 token: 7,826,509  |  验证 token: 159,510
+预计每 epoch token: 7,826,509  |  每步 token: 6,144
+======================================================================
+step     0 | loss 9.0656 | lr 1.00e-05 | 21,280 tok/s | 已用 0.0 min
+  [eval] step 0 | val_loss 8.9636 | best 8.9636  <- 保存 best.pt
+step    50 | loss 6.3062 | lr 5.10e-04 | 106,879 tok/s | 已用 0.0 min
+step   100 | loss 6.0191 | lr 1.00e-03 | 126,198 tok/s | 已用 0.1 min
+step   150 | loss 5.6679 | lr 1.00e-03 | 134,475 tok/s | 已用 0.1 min
+step   200 | loss 5.6060 | lr 1.00e-03 | 138,917 tok/s | 已用 0.1 min
+step   250 | loss 5.4532 | lr 9.99e-04 | 141,823 tok/s | 已用 0.2 min
+  [eval] step 250 | val_loss 5.4878 | best 5.4878  <- 保存 best.pt
+step   300 | loss 5.3323 | lr 9.99e-04 | 136,298 tok/s | 已用 0.2 min
+step   350 | loss 5.2456 | lr 9.98e-04 | 138,644 tok/s | 已用 0.3 min
+step   400 | loss 5.1854 | lr 9.97e-04 | 140,461 tok/s | 已用 0.3 min
+step   450 | loss 5.1592 | lr 9.96e-04 | 141,933 tok/s | 已用 0.3 min
+step   500 | loss 5.1465 | lr 9.94e-04 | 143,073 tok/s | 已用 0.4 min
+  [eval] step 500 | val_loss 5.0972 | best 5.0972  <- 保存 best.pt
+step   550 | loss 5.1133 | lr 9.93e-04 | 139,965 tok/s | 已用 0.4 min
+step   600 | loss 5.1473 | lr 9.91e-04 | 141,044 tok/s | 已用 0.4 min
+step   650 | loss 4.8790 | lr 9.89e-04 | 142,008 tok/s | 已用 0.5 min
+step   700 | loss 4.7999 | lr 9.87e-04 | 142,765 tok/s | 已用 0.5 min
+step   750 | loss 4.8657 | lr 9.85e-04 | 143,407 tok/s | 已用 0.5 min
+  [eval] step 750 | val_loss 4.8356 | best 4.8356  <- 保存 best.pt
+step   800 | loss 4.7592 | lr 9.83e-04 | 141,183 tok/s | 已用 0.6 min
+step   850 | loss 4.8264 | lr 9.80e-04 | 141,919 tok/s | 已用 0.6 min
+step   900 | loss 4.8046 | lr 9.77e-04 | 142,576 tok/s | 已用 0.6 min
+step   950 | loss 4.7241 | lr 9.75e-04 | 143,142 tok/s | 已用 0.7 min
+step  1000 | loss 4.8846 | lr 9.71e-04 | 143,559 tok/s | 已用 0.7 min
+  [eval] step 1000 | val_loss 4.7203 | best 4.7203  <- 保存 best.pt
+  [样例] 秋夜 / 秋色连春色，幽怀一夕明。孤飞朝月月，落水半楼云。
+step  1050 | loss 4.6575 | lr 9.68e-04 | 140,819 tok/s | 已用 0.8 min
+step  1100 | loss 4.5837 | lr 9.65e-04 | 141,281 tok/s | 已用 0.8 min
+step  1150 | loss 4.6530 | lr 9.61e-04 | 141,705 tok/s | 已用 0.8 min
+step  1200 | loss 4.5062 | lr 9.58e-04 | 142,074 tok/s | 已用 0.9 min
+step  1250 | loss 4.6410 | lr 9.54e-04 | 142,216 tok/s | 已用 0.9 min
+  [eval] step 1250 | val_loss 4.6553 | best 4.6553  <- 保存 best.pt
+step  1300 | loss 4.6322 | lr 9.50e-04 | 140,197 tok/s | 已用 1.0 min
+step  1350 | loss 4.4507 | lr 9.46e-04 | 140,536 tok/s | 已用 1.0 min
+step  1400 | loss 4.7095 | lr 9.41e-04 | 140,849 tok/s | 已用 1.0 min
+step  1450 | loss 4.3668 | lr 9.37e-04 | 141,130 tok/s | 已用 1.1 min
+step  1500 | loss 4.5572 | lr 9.32e-04 | 141,374 tok/s | 已用 1.1 min
+  [eval] step 1500 | val_loss 4.5486 | best 4.5486  <- 保存 best.pt
+step  1550 | loss 4.6127 | lr 9.27e-04 | 139,986 tok/s | 已用 1.1 min
+step  1600 | loss 4.4798 | lr 9.22e-04 | 140,264 tok/s | 已用 1.2 min
+step  1650 | loss 4.5147 | lr 9.17e-04 | 140,436 tok/s | 已用 1.2 min
+step  1700 | loss 4.5181 | lr 9.12e-04 | 140,711 tok/s | 已用 1.2 min
+step  1750 | loss 4.6241 | lr 9.07e-04 | 140,925 tok/s | 已用 1.3 min
+  [eval] step 1750 | val_loss 4.4840 | best 4.4840  <- 保存 best.pt
+step  1800 | loss 4.2947 | lr 9.01e-04 | 139,822 tok/s | 已用 1.3 min
+step  1850 | loss 4.4519 | lr 8.95e-04 | 140,062 tok/s | 已用 1.4 min
+step  1900 | loss 4.4295 | lr 8.90e-04 | 140,244 tok/s | 已用 1.4 min
+step  1950 | loss 4.3798 | lr 8.84e-04 | 140,390 tok/s | 已用 1.4 min
+step  2000 | loss 4.3885 | lr 8.78e-04 | 140,610 tok/s | 已用 1.5 min
+  [eval] step 2000 | val_loss 4.4316 | best 4.4316  <- 保存 best.pt
+  [样例] 秋夜 / 雨入三秋夜，寒风一日秋。雨声来远树，雨露入深山。草色随花色，苔痕带柳阴。不知归去住，谁说故人关。
+step  2050 | loss 4.3456 | lr 8.71e-04 | 139,287 tok/s | 已用 1.5 min
+step  2100 | loss 4.2291 | lr 8.65e-04 | 139,533 tok/s | 已用 1.5 min
+step  2150 | loss 4.2606 | lr 8.59e-04 | 139,756 tok/s | 已用 1.6 min
+step  2200 | loss 4.2387 | lr 8.52e-04 | 140,014 tok/s | 已用 1.6 min
+step  2250 | loss 4.1767 | lr 8.45e-04 | 140,235 tok/s | 已用 1.6 min
+  [eval] step 2250 | val_loss 4.3824 | best 4.3824  <- 保存 best.pt
+step  2300 | loss 4.3200 | lr 8.38e-04 | 139,408 tok/s | 已用 1.7 min
+step  2350 | loss 4.2262 | lr 8.32e-04 | 139,605 tok/s | 已用 1.7 min
+step  2400 | loss 4.2264 | lr 8.25e-04 | 139,807 tok/s | 已用 1.8 min
+step  2450 | loss 4.1160 | lr 8.17e-04 | 140,026 tok/s | 已用 1.8 min
+step  2500 | loss 4.2560 | lr 8.10e-04 | 140,286 tok/s | 已用 1.8 min
+  [eval] step 2500 | val_loss 4.3166 | best 4.3166  <- 保存 best.pt
+step  2550 | loss 4.1494 | lr 8.03e-04 | 139,509 tok/s | 已用 1.9 min
+step  2600 | loss 4.3022 | lr 7.95e-04 | 139,687 tok/s | 已用 1.9 min
+step  2650 | loss 4.1253 | lr 7.88e-04 | 139,847 tok/s | 已用 1.9 min
+step  2700 | loss 4.0650 | lr 7.80e-04 | 140,044 tok/s | 已用 2.0 min
+step  2750 | loss 4.1021 | lr 7.72e-04 | 140,236 tok/s | 已用 2.0 min
+  [eval] step 2750 | val_loss 4.2676 | best 4.2676  <- 保存 best.pt
+step  2800 | loss 4.2110 | lr 7.65e-04 | 139,581 tok/s | 已用 2.1 min
+step  2850 | loss 4.2006 | lr 7.57e-04 | 139,780 tok/s | 已用 2.1 min
+step  2900 | loss 4.2427 | lr 7.49e-04 | 139,998 tok/s | 已用 2.1 min
+step  2950 | loss 4.2286 | lr 7.41e-04 | 140,213 tok/s | 已用 2.2 min
+step  3000 | loss 4.1589 | lr 7.32e-04 | 140,425 tok/s | 已用 2.2 min
+  [eval] step 3000 | val_loss 4.2485 | best 4.2485  <- 保存 best.pt
+  [样例] 秋夜 / 南风转秋月，月色满山房。人静鸟声断，松深鹤影长。遥知对床起，应在远郊乡。
+step  3050 | loss 4.2185 | lr 7.24e-04 | 139,726 tok/s | 已用 2.2 min
+step  3100 | loss 4.0339 | lr 7.16e-04 | 139,902 tok/s | 已用 2.3 min
+step  3150 | loss 4.1522 | lr 7.08e-04 | 140,073 tok/s | 已用 2.3 min
+step  3200 | loss 4.1123 | lr 6.99e-04 | 140,246 tok/s | 已用 2.3 min
+step  3250 | loss 4.0019 | lr 6.91e-04 | 140,436 tok/s | 已用 2.4 min
+  [eval] step 3250 | val_loss 4.2201 | best 4.2201  <- 保存 best.pt
+step  3300 | loss 4.2121 | lr 6.82e-04 | 139,854 tok/s | 已用 2.4 min
+step  3350 | loss 4.0143 | lr 6.74e-04 | 139,982 tok/s | 已用 2.5 min
+step  3400 | loss 4.0849 | lr 6.65e-04 | 140,130 tok/s | 已用 2.5 min
+step  3450 | loss 4.0429 | lr 6.56e-04 | 140,249 tok/s | 已用 2.5 min
+step  3500 | loss 4.2025 | lr 6.48e-04 | 140,371 tok/s | 已用 2.6 min
+  [eval] step 3500 | val_loss 4.1938 | best 4.1938  <- 保存 best.pt
+step  3550 | loss 4.0192 | lr 6.39e-04 | 139,922 tok/s | 已用 2.6 min
+step  3600 | loss 4.0992 | lr 6.30e-04 | 140,105 tok/s | 已用 2.6 min
+step  3650 | loss 4.0253 | lr 6.21e-04 | 140,278 tok/s | 已用 2.7 min
+step  3700 | loss 4.0541 | lr 6.12e-04 | 140,453 tok/s | 已用 2.7 min
+step  3750 | loss 3.8167 | lr 6.04e-04 | 140,605 tok/s | 已用 2.7 min
+  [eval] step 3750 | val_loss 4.1543 | best 4.1543  <- 保存 best.pt
+step  3800 | loss 4.0377 | lr 5.95e-04 | 139,938 tok/s | 已用 2.8 min
+step  3850 | loss 3.8731 | lr 5.86e-04 | 140,018 tok/s | 已用 2.8 min
+step  3900 | loss 3.9357 | lr 5.77e-04 | 140,095 tok/s | 已用 2.9 min
+step  3950 | loss 3.9167 | lr 5.68e-04 | 140,176 tok/s | 已用 2.9 min
+step  4000 | loss 3.9519 | lr 5.59e-04 | 140,275 tok/s | 已用 2.9 min
+  [eval] step 4000 | val_loss 4.1378 | best 4.1378  <- 保存 best.pt
+  [样例] 秋夜 / 一宵月正明，十日坐秋夜。人生日已没，此事谁所有。念昔在此别，秋夜复何有。
+step  4050 | loss 4.1215 | lr 5.50e-04 | 139,661 tok/s | 已用 3.0 min
+step  4100 | loss 4.0018 | lr 5.41e-04 | 139,786 tok/s | 已用 3.0 min
+step  4150 | loss 3.8493 | lr 5.32e-04 | 139,915 tok/s | 已用 3.0 min
+step  4200 | loss 4.0488 | lr 5.23e-04 | 140,048 tok/s | 已用 3.1 min
+step  4250 | loss 3.9902 | lr 5.14e-04 | 140,175 tok/s | 已用 3.1 min
+  [eval] step 4250 | val_loss 4.1122 | best 4.1122  <- 保存 best.pt
+step  4300 | loss 4.0011 | lr 5.05e-04 | 139,728 tok/s | 已用 3.2 min
+step  4350 | loss 3.9812 | lr 4.96e-04 | 139,848 tok/s | 已用 3.2 min
+step  4400 | loss 4.0144 | lr 4.88e-04 | 139,966 tok/s | 已用 3.2 min
+step  4450 | loss 4.0996 | lr 4.79e-04 | 140,085 tok/s | 已用 3.3 min
+step  4500 | loss 3.9529 | lr 4.70e-04 | 140,188 tok/s | 已用 3.3 min
+  [eval] step 4500 | val_loss 4.1122 | best 4.1122  <- 保存 best.pt
+step  4550 | loss 3.8699 | lr 4.61e-04 | 139,764 tok/s | 已用 3.3 min
+step  4600 | loss 3.7957 | lr 4.52e-04 | 139,877 tok/s | 已用 3.4 min
+step  4650 | loss 3.9790 | lr 4.44e-04 | 139,981 tok/s | 已用 3.4 min
+step  4700 | loss 4.1572 | lr 4.35e-04 | 140,083 tok/s | 已用 3.4 min
+step  4750 | loss 3.8127 | lr 4.26e-04 | 140,198 tok/s | 已用 3.5 min
+  [eval] step 4750 | val_loss 4.0859 | best 4.0859  <- 保存 best.pt
+step  4800 | loss 4.0246 | lr 4.18e-04 | 139,775 tok/s | 已用 3.5 min
+step  4850 | loss 4.0855 | lr 4.09e-04 | 139,884 tok/s | 已用 3.6 min
+step  4900 | loss 3.9158 | lr 4.01e-04 | 139,997 tok/s | 已用 3.6 min
+step  4950 | loss 4.1029 | lr 3.92e-04 | 140,123 tok/s | 已用 3.6 min
+step  5000 | loss 3.9653 | lr 3.84e-04 | 140,234 tok/s | 已用 3.7 min
+  [eval] step 5000 | val_loss 4.0781 | best 4.0781  <- 保存 best.pt
+  [样例] 秋夜 / 秋月清如镜，愁人独倚栏。夜阑灯有信，秋夜月无寒。病起思衰鬓，吟身怯故冠。秋天不堪寄，此夜不胜看。
+step  5050 | loss 3.8705 | lr 3.76e-04 | 139,706 tok/s | 已用 3.7 min
+step  5100 | loss 4.0621 | lr 3.68e-04 | 139,810 tok/s | 已用 3.7 min
+step  5150 | loss 3.8858 | lr 3.59e-04 | 139,934 tok/s | 已用 3.8 min
+step  5200 | loss 3.9986 | lr 3.51e-04 | 140,043 tok/s | 已用 3.8 min
+step  5250 | loss 3.8523 | lr 3.43e-04 | 140,159 tok/s | 已用 3.8 min
+  [eval] step 5250 | val_loss 4.0466 | best 4.0466  <- 保存 best.pt
+step  5300 | loss 3.8907 | lr 3.35e-04 | 139,812 tok/s | 已用 3.9 min
+step  5350 | loss 3.8138 | lr 3.28e-04 | 139,912 tok/s | 已用 3.9 min
+step  5400 | loss 3.7446 | lr 3.20e-04 | 140,004 tok/s | 已用 4.0 min
+step  5450 | loss 3.8763 | lr 3.12e-04 | 140,109 tok/s | 已用 4.0 min
+step  5500 | loss 3.9112 | lr 3.05e-04 | 140,205 tok/s | 已用 4.0 min
+  [eval] step 5500 | val_loss 4.0342 | best 4.0342  <- 保存 best.pt
+step  5550 | loss 3.7570 | lr 2.97e-04 | 139,878 tok/s | 已用 4.1 min
+step  5600 | loss 3.9617 | lr 2.90e-04 | 139,978 tok/s | 已用 4.1 min
+step  5650 | loss 4.0400 | lr 2.83e-04 | 140,083 tok/s | 已用 4.1 min
+step  5700 | loss 3.9458 | lr 2.75e-04 | 140,176 tok/s | 已用 4.2 min
+step  5750 | loss 3.6960 | lr 2.68e-04 | 140,261 tok/s | 已用 4.2 min
+  [eval] step 5750 | val_loss 4.0437 | best 4.0342
+step  5800 | loss 3.7282 | lr 2.62e-04 | 139,954 tok/s | 已用 4.2 min
+step  5850 | loss 4.0085 | lr 2.55e-04 | 140,025 tok/s | 已用 4.3 min
+step  5900 | loss 3.8674 | lr 2.48e-04 | 140,109 tok/s | 已用 4.3 min
+step  5950 | loss 3.8983 | lr 2.41e-04 | 140,189 tok/s | 已用 4.3 min
+step  6000 | loss 3.9494 | lr 2.35e-04 | 140,276 tok/s | 已用 4.4 min
+  [eval] step 6000 | val_loss 4.0097 | best 4.0097  <- 保存 best.pt
+  [样例] 秋夜 / 秋色如可奈，幽忧独可嗟。露垂窗幕黑，风落砚帏斜。
+step  6050 | loss 3.8709 | lr 2.29e-04 | 139,932 tok/s | 已用 4.4 min
+step  6100 | loss 3.9270 | lr 2.22e-04 | 140,027 tok/s | 已用 4.5 min
+step  6150 | loss 3.8260 | lr 2.16e-04 | 140,124 tok/s | 已用 4.5 min
+step  6200 | loss 3.9162 | lr 2.10e-04 | 140,220 tok/s | 已用 4.5 min
+step  6250 | loss 3.8699 | lr 2.05e-04 | 140,305 tok/s | 已用 4.6 min
+  [eval] step 6250 | val_loss 3.9935 | best 3.9935  <- 保存 best.pt
+step  6300 | loss 3.8075 | lr 1.99e-04 | 140,025 tok/s | 已用 4.6 min
+step  6350 | loss 3.7459 | lr 1.93e-04 | 140,118 tok/s | 已用 4.6 min
+step  6400 | loss 3.8586 | lr 1.88e-04 | 140,209 tok/s | 已用 4.7 min
+step  6450 | loss 3.8030 | lr 1.83e-04 | 140,291 tok/s | 已用 4.7 min
+step  6500 | loss 3.6789 | lr 1.78e-04 | 140,371 tok/s | 已用 4.7 min
+  [eval] step 6500 | val_loss 3.9932 | best 3.9932  <- 保存 best.pt
+step  6550 | loss 3.8578 | lr 1.73e-04 | 140,064 tok/s | 已用 4.8 min
+step  6600 | loss 3.7190 | lr 1.68e-04 | 140,156 tok/s | 已用 4.8 min
+step  6650 | loss 3.9338 | lr 1.63e-04 | 140,226 tok/s | 已用 4.9 min
+step  6700 | loss 3.7806 | lr 1.59e-04 | 140,291 tok/s | 已用 4.9 min
+step  6750 | loss 3.6721 | lr 1.54e-04 | 140,355 tok/s | 已用 4.9 min
+  [eval] step 6750 | val_loss 3.9990 | best 3.9932
+step  6800 | loss 3.8812 | lr 1.50e-04 | 140,090 tok/s | 已用 5.0 min
+step  6850 | loss 3.9572 | lr 1.46e-04 | 140,164 tok/s | 已用 5.0 min
+step  6900 | loss 3.8544 | lr 1.42e-04 | 140,241 tok/s | 已用 5.0 min
+step  6950 | loss 3.8261 | lr 1.39e-04 | 140,309 tok/s | 已用 5.1 min
+step  7000 | loss 3.6939 | lr 1.35e-04 | 140,377 tok/s | 已用 5.1 min
+  [eval] step 7000 | val_loss 3.9913 | best 3.9913  <- 保存 best.pt
+  [样例] 秋夜 / 秋宵对高人，寂寞对残春。万木自成叶，一宵无一人。影深秋露湿，声碎月池新。何事征西客，江南独有辰。
+step  7050 | loss 3.7758 | lr 1.32e-04 | 140,001 tok/s | 已用 5.2 min
+step  7100 | loss 3.6869 | lr 1.29e-04 | 140,082 tok/s | 已用 5.2 min
+step  7150 | loss 3.7998 | lr 1.25e-04 | 140,145 tok/s | 已用 5.2 min
+step  7200 | loss 3.8620 | lr 1.23e-04 | 140,210 tok/s | 已用 5.3 min
+step  7250 | loss 3.6422 | lr 1.20e-04 | 140,275 tok/s | 已用 5.3 min
+  [eval] step 7250 | val_loss 3.9686 | best 3.9686  <- 保存 best.pt
+step  7300 | loss 3.8046 | lr 1.17e-04 | 140,038 tok/s | 已用 5.3 min
+step  7350 | loss 3.8188 | lr 1.15e-04 | 140,121 tok/s | 已用 5.4 min
+step  7400 | loss 3.9223 | lr 1.13e-04 | 140,203 tok/s | 已用 5.4 min
+step  7450 | loss 3.7728 | lr 1.11e-04 | 140,286 tok/s | 已用 5.4 min
+step  7500 | loss 3.6972 | lr 1.09e-04 | 140,372 tok/s | 已用 5.5 min
+  [eval] step 7500 | val_loss 3.9673 | best 3.9673  <- 保存 best.pt
+step  7550 | loss 3.7174 | lr 1.07e-04 | 140,153 tok/s | 已用 5.5 min
+step  7600 | loss 3.7634 | lr 1.06e-04 | 140,238 tok/s | 已用 5.6 min
+step  7650 | loss 3.8378 | lr 1.04e-04 | 140,320 tok/s | 已用 5.6 min
+step  7700 | loss 3.7025 | lr 1.03e-04 | 140,400 tok/s | 已用 5.6 min
+step  7750 | loss 3.7929 | lr 1.02e-04 | 140,480 tok/s | 已用 5.6 min
+  [eval] step 7750 | val_loss 3.9495 | best 3.9495  <- 保存 best.pt
+step  7800 | loss 3.8603 | lr 1.01e-04 | 140,253 tok/s | 已用 5.7 min
+step  7850 | loss 3.7870 | lr 1.01e-04 | 140,313 tok/s | 已用 5.7 min
+step  7900 | loss 3.8623 | lr 1.00e-04 | 140,374 tok/s | 已用 5.8 min
+step  7950 | loss 3.9356 | lr 1.00e-04 | 140,434 tok/s | 已用 5.8 min
+step  7999 | loss 3.6887 | lr 1.00e-04 | 140,493 tok/s | 已用 5.8 min
+  [eval] step 7999 | val_loss 3.9636 | best 3.9495
+训练结束，用时 5.9 分钟，最优 val_loss=3.9495
+模型保存在 D:\MyTools\zlf\firstModel\checkpoints\best.pt
