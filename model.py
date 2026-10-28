@@ -104,6 +104,14 @@ class GPT(nn.Module):
 
     @staticmethod
     def _init_weights(module):
+        """遍历模型的每个子模块，使用正态分布初始化权重。
+        
+        线性层（nn.Linear）：权重用 N(0, 0.02) 初始化，偏置（如果有）置零。
+        嵌入层（nn.Embedding）：权重用 N(0, 0.02) 初始化。
+        
+        0.02 是 GPT 系列的标准小方差，保证训练初期 logits 不爆炸，
+        配合残差连接让信号能稳定传播。
+        """
         if isinstance(module, nn.Linear):
             nn.init.normal_(module.weight, mean=0.0, std=0.02)
             if module.bias is not None:
